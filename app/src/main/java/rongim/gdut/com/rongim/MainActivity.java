@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onReceive(Context context, Intent intent) {
             int status = intent.getIntExtra("status",-1);
-            Toast.makeText(context,"status:"+status,Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,"status:"+status,Toast.LENGTH_SHORT).show();
         }
     };
     private IntentFilter filter;
