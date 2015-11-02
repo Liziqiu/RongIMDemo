@@ -1,0 +1,312 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:2:1-61:12
+	xmlns:android
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:5:5-59:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:29:5-143:19
+MERGED from [com.android.support:support-v4:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:9:9-41
+	android:allowBackup
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:8:9-43
+	android:theme
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:11:9-40
+	android:name
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:6:9-38
+activity#rongim.gdut.com.rongim.MainActivity
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:12:9-25:20
+	android:label
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:15:13-24:29
+action#android.intent.action.MAIN
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:17:27-74
+data
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:20:17-23:45
+	android:host
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:21:21-58
+	android:pathPrefix
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:22:21-59
+	android:scheme
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:23:21-42
+activity#rongim.gdut.com.rongim.subConversionListActivity
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:26:9-41:20
+	android:windowSoftInputMode
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:29:13-67
+	android:screenOrientation
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:27:13-54
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:31:13-40:29
+action#android.intent.action.VIEW
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:34:27-73
+activity#rongim.gdut.com.rongim.ConversationActivity
+ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:43:9-58:20
+	android:windowSoftInputMode
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:46:13-67
+	android:screenOrientation
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:44:13-49
+uses-sdk
+INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.1.0] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.INTERNET
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:19:5-71
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:19:22-68
+uses-permission#android.permission.GET_TASKS
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:23:22-63
+uses-permission#android.permission.CAMERA
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:24:5-65
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:24:22-62
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:25:22-70
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:26:5-85
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:26:22-82
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:27:22-78
+activity#io.rong.voipkit.activity.CallSideActivity
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:33:9-46:20
+	android:screenOrientation
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:34:13-69
+activity#io.rong.voipkit.activity.CalledSideActivity
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:47:9-61:20
+	android:screenOrientation
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:50:13-49
+	android:excludeFromRecents
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:49:13-46
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:48:13-71
+service#io.rong.push.PushService
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:63:9-72:19
+	android:process
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:65:13-43
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:64:13-52
+intent-filter#android.intent.category.DEFAULT+io.rong.push
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:67:13-71:29
+action#io.rong.push
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:70:17-55
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:70:25-52
+service#io.rong.push.CommandService
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:73:9-82:19
+	android:process
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:75:13-43
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:74:13-55
+intent-filter#android.intent.category.DEFAULT+io.rong.command
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:77:13-81:29
+action#io.rong.command
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:80:17-58
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:80:25-55
+receiver#io.rong.push.PushReceiver
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:84:9-107:20
+	android:process
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:86:13-43
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:85:13-53
+intent-filter#io.rong.imlib.action.push.heartbeat
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:88:13-90:29
+action#io.rong.imlib.action.push.heartbeat
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:89:17-78
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:89:25-75
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:91:13-93:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:92:17-79
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:92:25-76
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:94:13-96:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:95:17-79
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:95:25-76
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.USER_PRESENT
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:97:13-101:29
+action#android.intent.action.USER_PRESENT
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:98:17-77
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:98:25-74
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:99:17-87
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:99:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:100:17-90
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:100:25-87
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:102:13-106:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:103:17-80
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:103:25-77
+activity#io.rong.imkit.tools.SelectPictureActivity
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:109:9-111:52
+	android:screenOrientation
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:111:13-49
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:110:13-69
+activity#io.rong.imkit.tools.PreviewPictureActivity
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:112:9-114:52
+	android:screenOrientation
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:113:13-70
+activity#io.rong.imkit.tools.RongWebviewActivity
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:115:9-117:52
+	android:screenOrientation
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:116:13-67
+activity#io.rong.imkit.widget.provider.TakingPicturesActivity
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:118:9-121:52
+	android:screenOrientation
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:121:13-49
+	android:configChanges
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:120:13-63
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:119:13-80
+service#io.rong.imlib.ipc.RongService
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:123:9-126:19
+	android:process
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:125:13-35
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:124:13-57
+service#io.rong.imlib.ReConnectService
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:127:9-66
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:127:18-63
+receiver#io.rong.imlib.ConnectChangeReceiver
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:129:9-72
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:129:19-69
+receiver#io.rong.imlib.ipc.PushMessageReceiver
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:130:9-134:20
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:130:19-71
+intent-filter#io.rong.push.message
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:131:13-133:29
+action#io.rong.push.message
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:132:17-63
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:132:25-60
+receiver#io.rong.imlib.HeartbeatReceiver
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:135:9-137:38
+	android:process
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:137:13-35
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:136:13-59
+meta-data#RONG_CLOUD_APP_KEY
+ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:139:9-141:45
+	android:name
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:140:13-46
+	android:value
+		ADDED from [MyApplication:IMKit:unspecified] E:\My_WorkSpace\IM\MyApplication\app\build\intermediates\exploded-aar\MyApplication\IMKit\unspecified\AndroidManifest.xml:141:13-42
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from E:\My_WorkSpace\IM\MyApplication\app\src\main\AndroidManifest.xml:2:1-61:12 reason: io.rong.imkit requested WRITE_EXTERNAL_STORAGE
