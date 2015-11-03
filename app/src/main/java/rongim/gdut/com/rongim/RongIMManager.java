@@ -26,6 +26,7 @@ public class RongIMManager{
     public final static int CONNECT_SUCCESS=0;
     public final static  String CONNECT_CHANGE_BROADCAST = "ir.com.connect.change";
     public final static int CONNECT_ERROR=1;
+    public final static int GET_TOKEN_COMPLETED=2;
 
     private static RongIMManager instanse;
     private SharedPreferences mPreferences;
@@ -40,6 +41,10 @@ public class RongIMManager{
                 case CONNECT_ERROR:
                     SendConnectStatusChangeBroadcast(CONNECT_ERROR);
                     break;
+                case GET_TOKEN_COMPLETED:
+                    Log.d("zhiqiang","GET_TOKEN_COMPLETED");
+                    RongIM.connect((String) msg.obj,ConnectCallBack);
+                    break;
             }
         }
     };
@@ -47,6 +52,7 @@ public class RongIMManager{
     private RongIMClient.ConnectCallback ConnectCallBack = new RongIMClient.ConnectCallback(){
         @Override
         public void onSuccess(String s) {
+            Log.d("zhiqiang","onSuccess");
             handler.sendMessage(handler.obtainMessage(CONNECT_SUCCESS));
         }
 
@@ -62,6 +68,7 @@ public class RongIMManager{
     };
 
     private void SendConnectStatusChangeBroadcast(int status) {
+        Log.d("zhiqiang","send broadcast");
         Intent intent = new Intent();
         intent.setAction(CONNECT_CHANGE_BROADCAST);
         intent.putExtra("status",status);
@@ -101,12 +108,13 @@ public class RongIMManager{
             edit.putString(UserId,token);
             edit.apply();
         }
-        RongIM.connect(token,ConnectCallBack);
+        Log.d("zhiqiang", "connect token:" + token);
+        handler.sendMessage(handler.obtainMessage(GET_TOKEN_COMPLETED, token));
     }
 
     private String getTokenFormService(String UserId,String UserName,String portraitUri) {
-        String AppKey ="lmxuhwagx8dfd";
-        String AppSecret ="bklYtWFh7nV";
+        String AppKey ="vnroth0kr9sao";
+        String AppSecret ="0tHqjyjXxLXWL";
         SdkHttpResult result = null;
         try {
             result = HttpRequestUtil.getToken(AppKey,AppSecret,UserId,UserName,portraitUri, FormatType.json);
@@ -158,7 +166,13 @@ public class RongIMManager{
         @Override
         public void run() {
             super.run();
-            tryConnectRongIM(UserId,UserName,portraitUri);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            tryConnectRongIM(UserId, UserName, portraitUri);
+
         }
     }
 }

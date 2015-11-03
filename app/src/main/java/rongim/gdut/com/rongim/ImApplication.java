@@ -26,6 +26,6 @@ public class ImApplication extends Application{
 
     private void ConnectRongIM(){
         String Token = "MH2i0B4ZT/hGjD41R2qi54hokzx6IbRfGD6ngdF6GI212jMZAac5std7KvAqsQ1HHJqI5kZJc55Wl4N4LYHzNZxbA3nz9DeI";
-       RongIMManager.getInstanse().connectRongIM("808080","888","");
+       RongIMManager.getInstanse().connectRongIM("808080","gay","");
     }
 }

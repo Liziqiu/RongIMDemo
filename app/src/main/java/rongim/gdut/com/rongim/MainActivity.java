@@ -8,10 +8,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import io.rong.imkit.RongIM;
 import io.rong.imkit.fragment.ConversationListFragment;
 import io.rong.imlib.model.Conversation;
 
@@ -21,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onReceive(Context context, Intent intent) {
             int status = intent.getIntExtra("status",-1);
+            Log.d("zhiqiang","status:"+status);
             Toast.makeText(MainActivity.this,"status:"+status,Toast.LENGTH_SHORT).show();
+           // RongIM.getInstance().startPrivateChat(MainActivity.this,"808080","title");
         }
     };
     private IntentFilter filter;
